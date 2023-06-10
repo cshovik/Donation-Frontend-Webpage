@@ -11,4 +11,7 @@ Contact Section with animated heading
 Wave Animated Footer Sction with Clickable Social Media Icon
 ![Screenshot 2023-06-11 000232](https://github.com/cshovik/Donation-Frontend-Webpage/assets/113230439/a14b92b3-8768-4ce2-b7a3-5d27e9b5c023)
 
+Donation option(integrated Rozorpay)
+![image](https://github.com/cshovik/Donation-Frontend-Webpage/assets/113230439/afd8e105-5ec8-420b-92d0-02278ba9889e)
+
 
