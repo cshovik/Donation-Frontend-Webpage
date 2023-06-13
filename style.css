@@ -152,7 +152,6 @@ html {
 
 /**************  background cover image  ***************/
 .cover {
-    width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)) , url('https://cdn.theatlantic.com/thumbor/O6owSgFL2ce0qsNfyHIrZgDPPQo=/0x0:2500x1406/1600x900/media/img/mt/2022/03/GettyImages_901821222_copy/original.jpg');
     z-index: -200; 
@@ -278,16 +277,16 @@ html {
     align-items: center;
     max-width: 1000px ;    
     margin: 0 auto;
-    padding-top: 10%;
+    padding-top: 12%;
 }
 .information h3 {
     font-size: 18px;
     letter-spacing: 3px;
     font-weight: 300;
 }
-.information h2 span{
+
+.information h2 {
     font-size: 40px;
-    line-height: 120px;
     color: rgb(3, 97, 249);
 }
 .information h1#design{
@@ -387,29 +386,81 @@ html {
 
 /*                                                mobile view                           */
 @media only screen and (max-width : 700px ){
+    .cover .upperline:before{
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right:0;
+        background: #262626;
+        z-index: 1;
+    }
+    
+    .cover .upperline:after{
+       content:'';
+       position: absolute;
+       display: block;
+       top: 18%;
+       left: 34%;
+       width: 34%;
+       height: 3px;
+       background: #fff;
+       z-index: 2;
+       transform-origin: left;
+       transform: scaleX(0);
+       animation: animate2 3.7s infinite alternate;
+       
+    }
+    .cover .belowline:before{
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right:0;
+        background: #262626;
+        z-index: 1;
+    }
+    
+    .cover .belowline:after{
+       content:'';
+       position: absolute;
+       display: block;
+       top: 80%;
+       left: 34%;
+       width: 34%;
+       height: 3px;
+       background: #fff;
+       z-index: 2;
+       transform-origin: left;
+       transform: scaleX(0);
+       animation: animate3 3.7s infinite alternate;
+       
+    }
+    
     .cover{
         background-size: cover;
         background-position: center;
+        top: 0%;
     }
 
     .cover .information {
         align-items: center;
-        max-width: 1000px ;    
-        margin: 0 auto;
-        padding-top: 30%;
+        max-width: 1000px ;   
+        padding-top: 40%;
     }
+   
     .information h3 {
         font-size: 18px;
         letter-spacing: 3px;
         font-weight: 300;
     }
-    .information h2 span {
-        font-size: 20px;
-     
+
+    .information h2  {
+        font-size: 40px;
         color: rgb(3, 97, 249);
     }
     .information h1#design{
-        font-size: 60px;
+        font-size: 58px;
         line-height: 120px;
         color: transparent;
         -webkit-text-stroke: 1px #fff;
@@ -694,6 +745,7 @@ footer .wave
     width: 100%;
     height:100px;
     background: url(../wave.png);
+    width:100%;
     background-size: 1000px 100px;
 }
 footer .wave#wave1
@@ -748,6 +800,7 @@ footer .wave#wave4
 @media only screen and (max-width : 700px){
     footer {
         background-color: #3586ff;
+        width:88%;
         left: 0%;
         padding: 15px 6%;
     }
@@ -755,8 +808,8 @@ footer .wave#wave4
     footer .wave
     {   
         height: 100px;
-        background-size: 1000px 100px;
-    }
+        width:100%;
+    }   
     footer .wave#wave1
     {
     
