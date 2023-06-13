@@ -14,4 +14,8 @@ Wave Animated Footer Sction with Clickable Social Media Icon
 Donation option(integrated Rozorpay)
 ![image](https://github.com/cshovik/Donation-Frontend-Webpage/assets/113230439/afd8e105-5ec8-420b-92d0-02278ba9889e)
 
+Responsive Website
+![image](https://github.com/cshovik/Donation-Frontend-Webpage/assets/113230439/5b559a36-8354-457c-8308-4ba18175f596)
+
+
 
