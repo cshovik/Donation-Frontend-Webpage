@@ -15,9 +15,11 @@ Donation option(integrated Rozorpay)
 ![image](https://github.com/cshovik/Donation-Frontend-Webpage/assets/113230439/afd8e105-5ec8-420b-92d0-02278ba9889e)
 
 Responsive Website
+
 ![image](https://github.com/cshovik/Donation-Frontend-Webpage/assets/113230439/5b559a36-8354-457c-8308-4ba18175f596)
 
 Responsive animated footer section
+
 ![image](https://github.com/cshovik/Donation-Frontend-Webpage/assets/113230439/ec1f5c2c-b7c5-4b94-8c31-27b3471129e2)
 
 
