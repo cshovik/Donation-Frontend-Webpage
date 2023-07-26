@@ -32,6 +32,10 @@ Responsive animated footer section
 
 ![image](https://github.com/cshovik/Donation-Frontend-Webpage/assets/113230439/ec1f5c2c-b7c5-4b94-8c31-27b3471129e2)
 
+Certificate of Internship
+![image](https://github.com/cshovik/Microsoft-FRT-Internship/assets/113230439/c9644a57-ced5-4416-8fc6-377c8246ee62)
+
+
 
 
 
